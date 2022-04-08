@@ -28,6 +28,6 @@ python -m basars_serving_client.client
 | Key                       | Default Value |
 |---------------------------|---------------|
 | `BASARS_HOST`             | localhost     |
-| `BASARS_PORT`             | 9000          |
+| `BASARS_PORT`             | 8500          |
 | `BASARS_IMAGE_SOURCE_DIR` | sample_images |
 | `BASARS_IMAGE_TARGET_DIR` | target_images |

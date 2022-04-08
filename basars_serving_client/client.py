@@ -21,7 +21,7 @@ def run():
     logging.basicConfig(level=logging.INFO)
 
     grpc_host = os.getenv('BASARS_HOST', 'localhost')
-    grpc_port = os.getenv('BASARS_PORT', 9000)
+    grpc_port = os.getenv('BASARS_PORT', 8500)
 
     source_images_dir = os.getenv('BASARS_IMAGE_SOURCE_DIR', 'sample_images')
     target_images_dir = os.getenv('BASARS_IMAGE_TARGET_DIR', 'target_images')
